@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/*PHOTOS*/
+.img-1 {background-image: url(https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);}
+.img-2 {background-image: url(https://images.pexels.com/photos/668278/pexels-photo-668278.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);}
+.img-3 {background-image: url(https://images.pexels.com/photos/913138/pexels-photo-913138.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);}
+.img-4 {background-image: url(https://images.pexels.com/photos/169928/pexels-photo-169928.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);}
+.img-5 {background-image: url(https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);}
+.img-6 {background-image: url(https://images.pexels.com/photos/916335/pexels-photo-916335.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);}
+.img-7 {background-image: url(https://images.pexels.com/photos/849646/pexels-photo-849646.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);}
+.img-8 {background-image: url(https://images.pexels.com/photos/735647/pexels-photo-735647.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);}
+.img-9 {background-image: url(https://images.pexels.com/photos/910154/pexels-photo-910154.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);}
+.img-10 {background-image: url(https://images.pexels.com/photos/620341/pexels-photo-620341.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);}
+.img-11 {background-image: url(https://images.pexels.com/photos/730803/pexels-photo-730803.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);}
+.img-12 {background-image: url(https://images.pexels.com/photos/231062/pexels-photo-231062.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);}
+
+/*CODE*/
+.element {
+	height: 190px;
+	margin: 5px;
+	border-radius: 5px;
+	background-position: center;
+	background-size: cover;
+}
+.inside-container, .flex-column, .flex-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex-column {
+	flex-direction: column;
+}
+.flex-1 {
+	flex: 1;
+}
+body {
+	background-color: #131212;
+}
+h1 {
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 36px;
+}
+.element-big {
+	height: 280px;
+}
+body:hover .element {
+	opacity: 0.3;
+}
+body .element:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+	
